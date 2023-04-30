@@ -1,0 +1,148 @@
+{
+  "@context" : {
+    "hasPrice" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "CabernetSauvignon" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon"
+    },
+    "Winery" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery"
+    },
+    "Expensive" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country"
+    },
+    "Moscatel" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel"
+    },
+    "Malic" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic"
+    },
+    "Body" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body"
+    },
+    "Medium" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium"
+    },
+    "FermentedBeverages" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages"
+    },
+    "TopRating" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating"
+    },
+    "Light" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light"
+    },
+    "Succinic" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic"
+    },
+    "Price" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price"
+    },
+    "hasAge" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Monastrell" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell"
+    },
+    "Citric" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric"
+    },
+    "Garnacha" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha"
+    },
+    "Grape" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+    },
+    "Albarinio" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio"
+    },
+    "Old" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old"
+    },
+    "hasBody" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody",
+      "@type" : "@id"
+    },
+    "numberOfReviews" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating"
+    },
+    "Lactic" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic"
+    },
+    "WhiteWine" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine"
+    },
+    "Tartaric" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric"
+    },
+    "Tempranillo" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo"
+    },
+    "SparklingWine" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine"
+    },
+    "isFrom" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom",
+      "@type" : "@id"
+    },
+    "Full" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full"
+    },
+    "RoseWine" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine"
+    },
+    "Acidity" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+    },
+    "Year" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year"
+    },
+    "Merlot" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Name" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name"
+    },
+    "NumReviews" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews"
+    },
+    "CavernetFranc" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc"
+    },
+    "madeBy" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy",
+      "@type" : "@id"
+    },
+    "Region" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region"
+    },
+    "Chardonnay" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay"
+    },
+    "RedWine" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine"
+    },
+    "Variety" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+    }
+  }
+}
