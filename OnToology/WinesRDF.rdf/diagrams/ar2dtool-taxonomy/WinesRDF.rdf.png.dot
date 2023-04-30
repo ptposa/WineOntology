@@ -1,0 +1,43 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Rating" "base:FermentedBeverages" "base:Expensive" "base:Full" "base:RedWine" "base:Tartaric" "base:CabernetSauvignon" "base:Winery" "base:WhiteWine" "base:Lactic" "base:Malic" "base:Albarinio" "base:TopRating" "base:NumReviews" "base:Name" "base:Tempranillo" "base:RoseWine" "base:Wine" "base:Medium" "base:Citric" "base:Region" "base:Old" "base:Body" "base:Merlot" "base:Garnacha" "base:CavernetFranc" "base:Year" "base:Moscatel" "base:Monastrell" "base:Grape" "base:Light" "base:Country" "base:Acidity" "base:Chardonnay" "base:SparklingWine" "base:Succinic" "base:Price" "base:Variety" ; /*classes style*/
+	"base:Region" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Acidity" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:WhiteWine" -> "base:Variety" [ label = "rdfs:subClassOf" ];
+	"base:TopRating" -> "base:Rating" [ label = "rdfs:subClassOf" ];
+	"base:Tempranillo" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Light" -> "base:Body" [ label = "rdfs:subClassOf" ];
+	"base:Expensive" -> "base:Price" [ label = "rdfs:subClassOf" ];
+	"base:Variety" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:RedWine" -> "base:Variety" [ label = "rdfs:subClassOf" ];
+	"base:Rating" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:NumReviews" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Citric" -> "base:Acidity" [ label = "rdfs:subClassOf" ];
+	"base:Tartaric" -> "base:Acidity" [ label = "rdfs:subClassOf" ];
+	"base:Albarinio" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Grape" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:CavernetFranc" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Body" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Price" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Succinic" -> "base:Acidity" [ label = "rdfs:subClassOf" ];
+	"base:Malic" -> "base:Acidity" [ label = "rdfs:subClassOf" ];
+	"base:Merlot" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Country" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Garnacha" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Wine" -> "base:FermentedBeverages" [ label = "rdfs:subClassOf" ];
+	"base:SparklingWine" -> "base:Variety" [ label = "rdfs:subClassOf" ];
+	"base:Moscatel" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:CabernetSauvignon" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Name" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Full" -> "base:Body" [ label = "rdfs:subClassOf" ];
+	"base:Year" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:RoseWine" -> "base:Variety" [ label = "rdfs:subClassOf" ];
+	"base:Monastrell" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Chardonnay" -> "base:Grape" [ label = "rdfs:subClassOf" ];
+	"base:Old" -> "base:Year" [ label = "rdfs:subClassOf" ];
+	"base:Lactic" -> "base:Acidity" [ label = "rdfs:subClassOf" ];
+	"base:Winery" -> "base:Wine" [ label = "rdfs:subClassOf" ];
+	"base:Medium" -> "base:Body" [ label = "rdfs:subClassOf" ];
+
+}
