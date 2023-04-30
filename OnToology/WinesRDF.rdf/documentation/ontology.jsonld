@@ -1,0 +1,744 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full"
+    }, {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light"
+    }, {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    }, {
+      "@id" : "_:genid12"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid20"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#a"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "4.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid27"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#b"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2000"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#b"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid40"
+    }, {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid34"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid42"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#b"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "100"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#b"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine"
+    }, {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine"
+    }, {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine"
+    }, {
+      "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontology name: Wines\nAuthor: Jorge Pablo Trias Posa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Acidity score, defined as wine's “pucker” or tartness; it's what makes a wine refreshing and your tongue salivate and want another sip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is only cultivated in the Rías Baixas. It produces acid wines that are very refreshing and have a very particular aroma."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://dbpedia.org/page/Albari%C3%B1o"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Body score, defined as the richness and weight of the wine in your mouth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is one of the best known red grapes in the world. It grows in almost all major wine-growing areas, in a diverse spectrum of climates. It became famous for its presence in Bordeaux wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is native to the French Médoc region. The crossing of the Cabernet Franc with the Sauvignon Blanc resulted in the Cabernet Sauvignon. The aromas of Cabernet Franc red wines show vegetal characteristics."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It comes from Burgundy but it adapts to the most diverse climates and terrains, as long as they are not too cold. For this reason, we find it in many parts of the Spanish geography, where it is aged in barrels. It results in wines with tropical and white fruit aromas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This acid slowly disappears as it is fermented by bacteria. It is not very abundant in the grape."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Country of origin of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElNido",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wines whose price is higher than 100 euros."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It represents the parent class of wines. Remember that wines are a type of fermented drink."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The full body is the one that covers every corner of your palate and is more viscous."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Its freshness and a highly accentuated fruit expression, much to the taste of today's consumer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is the grape variety of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lactic acid comes from the malic acid of the grape, it is much milder than this, and it is produced during fermentation by the action of lactic acid bacteria, in the so-called malolactic fermentation (after alcoholic fermentation). Lactic acid is much more abundant in reds than in whites, since the latter usually do not undergo malolactic acid."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The light body is one that feels lighter and less viscous in the mouth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is found in greater quantity in the must and not in the wine. It is important for the conservation and life of some wines. It disappears by the action of lactic bacteria."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An intermediate body between light and full."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is a red grape of Bordeaux (Bordeaux) origin, from the southwest of France. It began to be incorporated at the beginning of the 19th century and after Cabernet Sauvignon, it is the second most widely planted grape in the world, as a consequence of the fact that it is perfectly acclimatized to most temperate and hot climates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is a grape capable of producing modern, powerful, high-quality wines with a high alcohol content and a high level of tannins, especially in hot years, which sweeten after aging in the barrel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The muscatel grape family is very extensive. It includes some 200 grape varieties that have been used throughout history from winemaking to the production of table grapes or raisins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Number of users that reviewed the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A wine is classified as Old when it is older than the year 2000."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Pingus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://dbpedia.org/page/Dominio_de_Pingus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Price in euros [€] in integer value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Average rating given to the wine by the users [from 1-5]."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Red wine is made mainly from red grapes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Region of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RiberadelDuero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "There are three ways to produce rosé wine:\n1. By contact with the skins or direct pressing\n2. Due to bleeding after destemming and squeezing the grapes\n3. Mix red and white grapes: this method is perhaps the least used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sparkling wines, as their name indicates, contain carbon dioxide naturally, never artificially. This is achieved thanks to a second fermentation, in a closed bottle or in closed tanks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "During fermentation is when it makes an appearance. It does not evolve with the wine and constitutes one of the elements that provide the characteristic flavor of fermented beverages."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It communicates a certain hardness when drinking if it is very abundant. If temperatures are low during the winemaking process, it can cause the formation of crystals of potassium and calcium salts, totally innocuous, which can be found in the tanks of certain bottles and which indicate that the wine has not received a correct stabilization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is called like this because the grapes are collected before other varieties (earlier). It is a grape with very fruity and aromatic notes, which ages quite well in barrels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wines whose rating is higher than 4.5."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1999"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "692"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia"
+  } ],
+  "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1705"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine variety."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://dbpedia.org/page/Vega_Sicilia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "White wine is made from the must of white and/or red grapes, provided that the reds do not have colored pulp."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents a specific wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Winery of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Year in which the grapes were harvested."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Year in which the grapes of the wine were harvested."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The body of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The price of wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Country of the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The winery that made the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Number of users that reviewed the wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#b",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

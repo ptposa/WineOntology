@@ -1,0 +1,485 @@
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology name: Wines\nAuthor: Jorge Pablo Trias Posa" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "The body of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The Country of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The winery that made the wine." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Year in which the grapes of the wine were harvested." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The price of wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of users that reviewed the wine." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Acidity score, defined as wine's “pucker” or tartness; it's what makes a wine refreshing and your tongue salivate and want another sip." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio> <http://www.w3.org/2000/01/rdf-schema#comment> "It is only cultivated in the Rías Baixas. It produces acid wines that are very refreshing and have a very particular aroma." .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Albarinio> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Albari%C3%B1o"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> <http://www.w3.org/2000/01/rdf-schema#comment> "Body score, defined as the richness and weight of the wine in your mouth." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CabernetSauvignon> <http://www.w3.org/2000/01/rdf-schema#comment> "It is one of the best known red grapes in the world. It grows in almost all major wine-growing areas, in a diverse spectrum of climates. It became famous for its presence in Bordeaux wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#CavernetFranc> <http://www.w3.org/2000/01/rdf-schema#comment> "It is native to the French Médoc region. The crossing of the Cabernet Franc with the Sauvignon Blanc resulted in the Cabernet Sauvignon. The aromas of Cabernet Franc red wines show vegetal characteristics." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Chardonnay> <http://www.w3.org/2000/01/rdf-schema#comment> "It comes from Burgundy but it adapts to the most diverse climates and terrains, as long as they are not too cold. For this reason, we find it in many parts of the Spanish geography, where it is aged in barrels. It results in wines with tropical and white fruit aromas." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Citric> <http://www.w3.org/2000/01/rdf-schema#comment> "This acid slowly disappears as it is fermented by bacteria. It is not very abundant in the grape." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Country of origin of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive> <http://www.w3.org/2000/01/rdf-schema#comment> "Wines whose price is higher than 100 euros." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages> <http://www.w3.org/2000/01/rdf-schema#comment> "It represents the parent class of wines. Remember that wines are a type of fermented drink." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full> <http://www.w3.org/2000/01/rdf-schema#comment> "The full body is the one that covers every corner of your palate and is more viscous." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Garnacha> <http://www.w3.org/2000/01/rdf-schema#comment> "Its freshness and a highly accentuated fruit expression, much to the taste of today's consumer." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the grape variety of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Lactic> <http://www.w3.org/2000/01/rdf-schema#comment> "Lactic acid comes from the malic acid of the grape, it is much milder than this, and it is produced during fermentation by the action of lactic acid bacteria, in the so-called malolactic fermentation (after alcoholic fermentation). Lactic acid is much more abundant in reds than in whites, since the latter usually do not undergo malolactic acid." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light> <http://www.w3.org/2000/01/rdf-schema#comment> "The light body is one that feels lighter and less viscous in the mouth." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Malic> <http://www.w3.org/2000/01/rdf-schema#comment> "It is found in greater quantity in the must and not in the wine. It is important for the conservation and life of some wines. It disappears by the action of lactic bacteria." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Body> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "An intermediate body between light and full." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Merlot> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a red grape of Bordeaux (Bordeaux) origin, from the southwest of France. It began to be incorporated at the beginning of the 19th century and after Cabernet Sauvignon, it is the second most widely planted grape in the world, as a consequence of the fact that it is perfectly acclimatized to most temperate and hot climates." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Monastrell> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a grape capable of producing modern, powerful, high-quality wines with a high alcohol content and a high level of tannins, especially in hot years, which sweeten after aging in the barrel." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Moscatel> <http://www.w3.org/2000/01/rdf-schema#comment> "The muscatel grape family is very extensive. It includes some 200 grape varieties that have been used throughout history from winemaking to the production of table grapes or raisins." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#NumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of users that reviewed the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old> <http://www.w3.org/2000/01/rdf-schema#comment> "A wine is classified as Old when it is older than the year 2000." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Price> <http://www.w3.org/2000/01/rdf-schema#comment> "Price in euros [€] in integer value." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Average rating given to the wine by the users [from 1-5]." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Red wine is made mainly from red grapes." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Region of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine> <http://www.w3.org/2000/01/rdf-schema#comment> "There are three ways to produce rosé wine:\n1. By contact with the skins or direct pressing\n2. Due to bleeding after destemming and squeezing the grapes\n3. Mix red and white grapes: this method is perhaps the least used." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Sparkling wines, as their name indicates, contain carbon dioxide naturally, never artificially. This is achieved thanks to a second fermentation, in a closed bottle or in closed tanks." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Succinic> <http://www.w3.org/2000/01/rdf-schema#comment> "During fermentation is when it makes an appearance. It does not evolve with the wine and constitutes one of the elements that provide the characteristic flavor of fermented beverages." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Acidity> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tartaric> <http://www.w3.org/2000/01/rdf-schema#comment> "It communicates a certain hardness when drinking if it is very abundant. If temperatures are low during the winemaking process, it can cause the formation of crystals of potassium and calcium salts, totally innocuous, which can be found in the tanks of certain bottles and which indicate that the wine has not received a correct stabilization." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Grape> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Tempranillo> <http://www.w3.org/2000/01/rdf-schema#comment> "It is called like this because the grapes are collected before other varieties (earlier). It is a grape with very fruity and aromatic notes, which ages quite well in barrels." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wines whose rating is higher than 4.5." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine variety." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Variety> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#comment> "White wine is made from the must of white and/or red grapes, provided that the reds do not have colored pulp." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#FermentedBeverages> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents a specific wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery of the wine." .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Year> <http://www.w3.org/2000/01/rdf-schema#comment> "Year in which the grapes were harvested." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElNido
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElNido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElNido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElNido> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasElNido> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#ElRegollar> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#BodegasAmaren> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Country> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Pingus
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Pingus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Pingus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Pingus> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Dominio_de_Pingus"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RiberadelDuero
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RiberadelDuero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RiberadelDuero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Region> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasBody> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#isFrom> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Espana> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#madeBy> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> "1999"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> "692"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Unico> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#numberOfReviews> "1705"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Winery> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Vega_Sicilia> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Vega_Sicilia"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/trias/ontologies/2023/3/Wines#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Medium> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Light> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Full> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#WhiteWine> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#SparklingWine> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RoseWine> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#RedWine> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid10 <http://www.w3.org/2003/11/swrl#body> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2003/11/swrl#arguments> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#a> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Rating> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> .
+_:genid18 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid10 <http://www.w3.org/2003/11/swrl#head> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid20 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#TopRating> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid21 <http://www.w3.org/2003/11/swrl#body> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2003/11/swrl#arguments> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#b> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#b> .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid27 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasAge> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> .
+_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/2003/11/swrl#head> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid31 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Old> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid32 <http://www.w3.org/2003/11/swrl#body> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2003/11/swrl#arguments> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#b> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#b> .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid38 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#hasPrice> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> .
+_:genid40 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Wine> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/2003/11/swrl#head> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid42 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/trias/ontologies/2023/3/Wines#Expensive> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
